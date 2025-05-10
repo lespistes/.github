@@ -7,39 +7,58 @@ How could an unlimited number of people collaborate on one piece of music?
 How could this be accessible to as many people as possible? To people with little
 money or technical knowledge or bandwidth?
 
-How could this happen with as little technology as possible?
-
+How could this happen with as little technology as possible? With no technology?
 
 ## The idea
 
-A _champ de pistes_ is a conceptual tape recorder with a potentially unbounded
-number of tracks called _pistes_, numbered 1, 2, 3, etc.
+A **champ de pistes** is a conceptual tape recorder with a potentially unbounded
+number of tracks called **pistes**, numbered 1, 2, 3, etc.
 
-Pistes contain audio _segments_, recordings of audio.
+Pistes contain audio **segments**, recordings of audio. The exact definition
+of what a recording can be depends on the specific champ.
 
-Each segment has a _length_ and a _start time_ within its piste. No two segments in a piste can overlap.
+Each segment has a **début/start time** within its piste, and a
+**durée/duration**. Segments in a piste cannot overlap, but they can touch at the
+ends.
 
-A mix is a
+Segments are **immutable** which means that once they are placed on a piste they
+"cannot"(*) be removed.
 
-I want to re-emphasize that at its base, "les champs des pistes" is not a
-technological thing, though simple technology will exist to help composers and
-curators.  A small group of people could agree to a champ de pistes and organize
-it in their heads or on paper using LPs, cassettes, or (depending on your
-definition of what a "recording" is), sheet music and stopwatches.
+A **mix** is a set of instructions on how to mix pistes from one or more champs
+into single piece of audio.
+
+A mix can be a program in Python or some other language.
+
+For many people, a mix would be some sort of human-readable score they would
+prepare and give to someone else's program to prepare the output for
+them.
+
+That score might also be prepared by a program - for example, a program that
+reads and records faders like a classic mixing board, or something much
+more radical.
+
+## A concept first, with some technology to make it happen.
+
+I want to re-emphasize that at its base, a champ de pistes is not a
+technological thing.
+
+A group of people could agree to a champ de pistes and organize it on paper or
+even in their heads, using stopwatches and whatever devices they had at the time
+(LPs, cassettes, MiniDisc, wax cylinders), or even sheet music, singing and a
+good sense of time (whether sheet music is a "recording" would depend on what
+the champ's definition of a recording was.)
+
+That said, there will be simple technology to let you easily do useful things
 
 
+------
 
+(* - The quotes are because, of course, there will be a way to remove illegal or
+offensive segments from your piste, if only for the protection of the nice
+people playing our game from the creeps. But it will be possible to just rewrite
+history as if the little nastiness never happened, so it will _appear_ as if
+immutability were true.
 
-## The details
-
-Take all these definitions as conceptual, not technical, though technical
-interpretations will appear.
-
-A "recording" is some mechanical, electrical, electronic, digital or other thing that accurately reproduces a musical composition or performance.
-
-"recording" does not mandate some sort of hardware or software or anything
-
-
-A simple "tape" is a recording with a length and a start point in time.
-
-A single "tape" is zero or more "recordings", each one attached to a point in time.
+(On the technological side, this is not the big, heavy, hype-magnet named
+Blockchain but a proven, lightweight, 70s-vintage technology called the Merkel
+tree, in the form of our old, familiar friend, Git.)
