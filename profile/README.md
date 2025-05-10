@@ -1,29 +1,32 @@
-# Les pistes: an unbounded distributed collaborative music
+# Les champs de pistes: an unbounded distributed collaborative music
 
 ## Motivations
 
 How could an unlimited number of people collaborate on one piece of music?
 
-How could this happen with as little technology as possible?
-
 How could this be accessible to as many people as possible? To people with little
-money or technical knowledge or bandwidth? Without servers or software?
+money or technical knowledge or bandwidth?
 
-
-##
-
+How could this happen with as little technology as possible?
 
 
 ## The idea
 
-A "piste" is a conceptual
+A _champ de pistes_ is a conceptual tape recorder with a potentially unbounded
+number of tracks called _pistes_, numbered 1, 2, 3, etc.
 
-(French for "path" or "track")
+Pistes contain audio _segments_, recordings of audio.
 
-Clips of music are conceptually attached to one of a series of
+Each segment has a _length_ and a _start time_ within its piste. No two segments in a piste can overlap.
 
+A mix is a
 
-Mike has a minute of music
+I want to re-emphasize that at its base, "les champs des pistes" is not a
+technological thing, though simple technology will exist to help composers and
+curators.  A small group of people could agree to a champ de pistes and organize
+it in their heads or on paper using LPs, cassettes, or (depending on your
+definition of what a "recording" is), sheet music and stopwatches.
+
 
 
 
