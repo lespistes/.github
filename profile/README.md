@@ -12,10 +12,16 @@ How could this happen with as little technology as possible? With no technology?
 ## The idea
 
 A **champ de pistes** is a conceptual tape recorder with a potentially unbounded
-number of tracks called **pistes**, numbered 1, 2, 3, etc.
+number of tracks called **pistes**, numbered 1, 2, 3, etc, and sometimes named as
+well.
 
-Pistes contain audio **segments**, recordings of audio. The exact definition
-of what a recording can be depends on the specific champ.
+Pistes contain audio **segments**. A segment is a _location_ of an audio
+recording, it identifies a recording somewhere on or off the internet.
+Note that the recording itself does not have to be stored anywhere with the
+piste - the segment points to the audio, it does not contain the audio.
+
+"Recording" is left under-specified. The exact definition of what a recording
+can be depends on the specific champ.
 
 Each segment has a **début/start time** within its piste, and a
 **durée/duration**. Segments in a piste cannot overlap, but they can touch at the
@@ -34,8 +40,8 @@ prepare and give to someone else's program to prepare the output for
 them.
 
 That score might also be prepared by a program - for example, a program that
-reads and records faders like a classic mixing board, or something much
-more radical.
+reads and records faders a person uses like a classic mixing board, or something
+much more radical.
 
 ## A concept first, with some technology to make it happen.
 
