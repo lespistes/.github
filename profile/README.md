@@ -78,15 +78,32 @@ their heads, creating mixes using stopwatches and whatever devices they had at t
 of time (whether sheet music is a "recording" would depend on what the champ's
 definition of a recording was.)
 
-That said, there will be simple technology to let you easily make pistes, champs, and
-mixes, and and of course listen to them.
+That said, there will be simple free open source software to let you easily make pistes,
+champs, and mixes, and and of course listen to them.
 
 ## Frequently Anticipated Questions
 
 Q: Champs and pistes: is this a sports thing?
 
-I wanted to emphasize that these aren't conventional tracks at all. "Field of tracks" in
-French is "champ de pistes", and I live in Normandy.
+I wanted to emphasize that these aren't conventional tracks at all, and was looking for
+a different word. "Field of tracks" in French is "champ de pistes", and I live in
+Normandy.
+
+
+Q: Where is it?
+
+Even though it's purely a conceptual thing, for most people, including myself, some
+software will be really what makes it zing.
+
+There will be a workflow involving Git (from any provider, GitLab, GitHub, etc) that
+will be automated into a tool to build and share pistes, champs and mixes.
+
+Writing the workflow tool and one simple mixer won't really be a huge amount of time.
+Libraries like numpy, requests, and bs4 will do the heavy lifting and I've done an
+enormous amount of this stuff before.
+
+In this case, my old proverb really holds - weeks of programming can save you days of
+planning.  I intend to get the planning justso before I wrote more than tiny sketches.
 
 
 Q: Why not just have mixes which include segments, wouldn't that be simpler?
@@ -94,7 +111,8 @@ Why have champs and pistes at all?
 
 A: That was my original idea, but it lacked any natural form of collaboration so it sat
 in the back of my head for a long time.  Eventually, the idea of the infinite tape
-recorder started to crystalize in my head.
+recorder started to crystalize in my head, and then having people work on individual
+pistes was the logical next step.
 
 
 Q: I want to share mixes. What about copyright?
@@ -104,6 +122,23 @@ musicians are so poorly compensated.
 
 No copyright material is included in a mix - in fact, no audio material at all, only
 addresses. There will be mechanism to turn addresses of, say, Bandcamp or iTunes URLs
-tracks that a user has purchased and exist on their machine, into mixes. If you
-don't have some track, you get silence - or you could make your own copy of the mix
-and put some other track in there instead.
+tracks that a user has purchased and exist on their machine, into mixes. If you don't
+have some track, you get silence, so you could go out and buy the track - or you could
+clone the mix and put some other track that you owned in there instead.
+
+
+Q: Why are the pistes numbered? Why not a name?
+
+You will be able to attach labels to pistes, but any individual piste will always be at
+a fixed number like 2, 12 or 23.
+
+Again, this is to thicken the plot: to add a little structure to help collaboration.
+
+You can have pistes that are "right next door" or "far away", or talk about a "block of
+pistes".  It adds a geography and a metric to an otherwise trackless world of labels.
+
+More, people can write mixes that work on _any_ champ de pistes, simply by mixing pistes
+by index number.
+
+If you want, you can organize your champ so that everything is by label and completely
+hide the idea of the piste number, no one is stopping you!
