@@ -39,8 +39,8 @@ identifies a portion of an audio recording somewhere, on or off the internet.
 The segment's audio is not stored with the segment or the piste - a segment _points_ to
 audio, it does not contain audio.
 
-What a "recording" is, is left under-specified. The exact definition of what a recording
-is depends on the rules for the specific champ.
+What "a recording" is, is left under-specified. A specific champ can define what it
+means by "a recording".
 
 The idea of _address_ is also under-specified: there will be technology for things like
 URLs and digital audio, but there's nothing stopping a composer from including an
@@ -88,8 +88,8 @@ champs, and mixes, and and of course listen to them.
 
 Q: Champs and pistes: is this a sports thing?
 
-I wanted to emphasize that these aren't conventional tracks at all, and was looking for
-a different word. "Field of tracks" in French is "champ de pistes", and I live in
+I was looking for a word that wasn't the conventional "tracks", because they aren't
+tracks. "Field of tracks" in French is "champ de pistes", and I live in
 Normandy.
 
 
