@@ -20,11 +20,14 @@ field, an unbounced field of independent tracks.
 
 ## The champ de pistes
 
-A **champ de pistes** is a conceptual audio tape recorder, with an unbounded number of
-tracks called **pistes**, numbered 1, 2, 3, potentially off to infinity.
+A **champ de pistes** is an imaginary tape recorder, with an unbounded number of
+tracks called **pistes**, numbered 1, 2, 3, ..., off to infinity.
 
 A group of people start a champ de pistes and agree how to work. They put segments
 on pistes, and create mixes for all to hear.
+
+A champ de pistes is conceptual and does not have to be a technological thing at all,
+but technology will be created to help.
 
 ## The details
 
